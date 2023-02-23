@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center bg-white p-2 text-primary font-medium rounded-lg;
+  }
+}
+
+@font-face {
+  font-family: "iranSans";
+  src: url("../fonts/IRANSansWebUltraLight.ttf") format("truetype");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "iranSans";
+  src: url("../fonts/IRANSansWebLight.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "iranSans";
+  src: url("../fonts/IRANSansWeb.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "iranSans";
+  src: url("../fonts/IRANSansWebMedium.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "iranSans";
+  src: url("../fonts/IRANSansWebBold.ttf") format("truetype");
+  font-weight: 900;
+}
+
+* {
+  font-family: "iranSans";
+}
+
+html {
+  word-break: break-all !important;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
